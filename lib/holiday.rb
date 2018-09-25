@@ -45,6 +45,7 @@ def all_supplies_in_holidays(holiday_hash)
       puts hol.to_s.capitalize.chomp + ":"
       supplies.each do |sup|
         puts sup.to_s.chomp 
+      end
     end
   end
 end
