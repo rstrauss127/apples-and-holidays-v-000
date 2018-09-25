@@ -42,9 +42,10 @@ x = []
   holiday_hash.each do |season, holidays|
     puts season.to_s.capitalize + ":"
     holidays.each do |hol, supplies|
-      x << hol.to_s.capitalize.chomp + ":"
+      x << hol.to_s.capitalize.chomp + ": "
       supplies.each do |sup|
-        puts x.to_s + sup.to_s
+        x << sup.to_s
+        puts x
       end
     end
   end
