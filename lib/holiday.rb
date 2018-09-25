@@ -45,8 +45,9 @@ x = []
       x << hol.to_s.capitalize.chomp + ": "
       supplies.each do |sup|
         x << sup.to_s
-        puts x
+
       end
+      puts x.to_s
     end
   end
 end
